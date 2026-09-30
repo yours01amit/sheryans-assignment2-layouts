@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="logo">INSECT</h2>
+
+      <div class="search-box">
+        <i class="ri-search-2-line"></i>
+        <input type="text" placeholder="Search..." />
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="left">
+        <h1 class="vertical-title">Classification</h1>
+
+        <ul class="class-list">
+          <li><strong>Class:</strong> Insecta</li>
+          <li><strong>Order:</strong> Coleoptera</li>
+          <li><strong>Family:</strong> Cerambycidae</li>
+          <li><strong>Sub-Family:</strong> Cerambycinae</li>
+          <li><strong>Tribe:</strong> Callicromatini</li>
+          <li><strong>Genus:</strong> Pachyteria</li>
+        </ul>
+      </section>
+
+      <section class="center">
+        <img
+          src="./assets/inpect-image.png"
+          alt="Pachyteria equestris beetle"
+          class="dome-img"
+        />
+      </section>
+
+      <section class="right">
+        <h2 class="product-name">Pachyteria equestris</h2>
+
+        <div class="info">
+          <div class="size-box">
+            <img style="width: 100px;" src="https://img.icons8.com/?size=100&id=x831x1G-Xx3c&format=png&color=000000" alt="beetle outline" />
+            <p>32 mm</p>
+          </div>
+
+          <div class="details">
+            <div class="detail">
+              <img src="https://img.icons8.com/?size=100&id=3723&format=png&color=000000" alt="location" />
+              <p>Locality:<br />Malaysia</p>
+            </div>
+
+            <div class="detail">
+              <img src="https://img.icons8.com/?size=100&id=11780&format=png&color=000000" alt="male" />
+              <p>Sex:<br />Male</p>
+            </div>
+
+            <div class="detail">
+              <img src="https://img.icons8.com/?size=100&id=8tLoNlVbhqU3&format=png&color=000000" alt="ruler" />
+              <p>Size:<br />32 mm / 12 mm</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="price">$5.99</p>
+
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider"></span>
+          View detailed antennae
+        </label>
+
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider"></span>
+          View underside
+        </label>
+
+        <button class="add-btn">Add to collection</button>
+      </section>
+    </main>
+  </body>
+</html>
